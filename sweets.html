@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meals</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    <style>
+body {
+            background: url('stamrekah.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+
+.menu-container {
+    max-width: 1200px;
+    margin: 70px auto;
+    padding: 20px;
+   /* background-color: rgba(255, 255, 255, 0.9); /* Slight transparency */
+   /* border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    opacity: 1;*/
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-image: url(rekah4.jpg);
+    background-size: cover;
+}
+
+.menu-text {
+    flex: 1;
+    margin-right: 20px;
+    min-width: 0; /* Allows the text container to shrink */
+}
+
+.menu-text h2 {
+    margin: 0;
+    font-size: 1.7rem;
+    color: #ff6600;
+    text-align: right;
+}
+
+.menu-text h3 {
+    margin: 5px 0;
+    font-size: 1.2rem;
+    color: white;
+    text-align: left;
+    font-size: large;
+}
+
+.menu-text p {
+    margin: 5px 0;
+    font-size: 1.2rem;
+    color: white;
+    text-align: right;
+    font-size: x-large;
+}
+
+
+
+.menu-image {
+    flex-shrink: 0; /* Prevents the image from shrinking */
+    max-width: 150px;
+    min-width: 100px; /* Ensures the image does not shrink below a certain size */
+}
+
+.menu-image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .menu-item {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .menu-text {
+        margin-right: 10px;
+        min-width: 0; /* Ensures the text can still shrink */
+    }
+
+    .menu-image {
+        max-width: 120px;
+        min-width: 80px; /* Ensures the image does not shrink too much */
+    }
+}
+    </style>
+</head>
+
+
+<body>
+
+    <header>
+        <h1>קינוחים</h1>
+    </header>
+
+    <a href="index.html" class="back-button">Back </a>
+    <div class="menu-container">
+        <div class="menu-item">
+            <div class="menu-text">
+                <h2>תרליצ'י</h2>
+                
+                <h3>25₪</h3>
+            </div>
+            <div class="menu-image">
+                <img src="traletshe.jpg" alt="Chicken Burrito">
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <div class="menu-text">
+                <h2>סופלה</h2>
+                
+                <h3>25₪</h3>
+            </div>
+            <div class="menu-image">
+                <img src="sofle.jpg" alt="Beef Tacos">
+            </div>
+        </div>
+
+        <!-- Repeat the block above for more menu items -->
+        <div class="menu-item">
+            <div class="menu-text">
+                <h2>קרם בורלה</h2>
+               
+                <h3>25₪</h3>
+            </div>
+            <div class="menu-image">
+                <img src="kremborle.jpg" alt="Beef Tacos">
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <div class="menu-text">
+                <h2>פררו / קינדר</h2>
+               
+                <h3>30₪</h3>
+            </div>
+            <div class="menu-image">
+                <img src="ferroro.jpg" alt="Beef Tacos">
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <div class="menu-text">
+                <h2>לב קטן קינדר</h2>
+               
+                <h3>20₪</h3>
+            </div>
+            <div class="menu-image">
+                <img src="levkender.jpg" alt="Beef Tacos">
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <div class="menu-text">
+                <h2>גבינת פרורים</h2>
+               
+                <h3>25₪</h3>
+            </div>
+            <div class="menu-image">
+                <img src="berorem.jpg" alt="Beef Tacos">
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <div class="menu-text">
+                <h2>צורוס</h2>
+               
+                <h3>30₪</h3>
+            </div>
+            <div class="menu-image">
+                <img src="shoros.jpg" alt="Beef Tacos">
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
