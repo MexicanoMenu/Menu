@@ -158,36 +158,39 @@ h1 {
     }
 }
 
-
 .grid-item:nth-child(1) .left-half {
+    background-image: url('snacks1.avif'); /* Replace with your image */
+}
+.grid-item:nth-child(2) .left-half {
     background-image: url('askyot.avif'); /* Replace with your image */
 }
 
-.grid-item:nth-child(2) .left-half {
+.grid-item:nth-child(3) .left-half {
     background-image: url('arohaa.jpg'); /* Replace with your image */
 }
 
-.grid-item:nth-child(3) .left-half {
-    background-image: url('tortiataco.jpeg'); /* Replace with your image */
-}
-
 .grid-item:nth-child(4) .left-half {
-    background-image: url('salad.jpeg'); /* Replace with your image */
+    background-image: url('mokbats.jpg'); /* Replace with your image */
 }
 
 .grid-item:nth-child(5) .left-half {
-    background-image: url('tacorashe.jpg'); /* Replace with your image */
+    background-image: url('tortiataco.jpeg'); /* Replace with your image */
 }
 
 .grid-item:nth-child(6) .left-half {
-    background-image: url('snacks1.avif'); /* Replace with your image */
+    background-image: url('salad.jpeg'); /* Replace with your image */
 }
 
 .grid-item:nth-child(7) .left-half {
+    background-image: url('tacorashe.jpg'); /* Replace with your image */
+}
+
+
+
+.grid-item:nth-child(8) .left-half {
     background-image: url('drinks1.jpeg'); /* Replace with your image */
 }
 
-.grid-item:nth-child(8) .left-half {
+.grid-item:nth-child(9) .left-half {
     background-image: url('sweets1.jpg'); /* Replace with your image */
 }
-
