@@ -180,7 +180,7 @@ h1 {
 
 
 .grid-item:nth-child(6) .left-half {
-    background-image: url('snacks2.jpg'); /* Replace with your image */
+    background-image: url('snacks2.jpeg'); /* Replace with your image */
 }
 
 .grid-item:nth-child(7) .left-half {
