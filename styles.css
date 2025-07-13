@@ -177,21 +177,19 @@ h1 {
     background-image: url('askyot.avif'); /* Replace with your image */
 }
 
-.grid-item:nth-child(6) .left-half {
-    background-image: url('mokbats.jpg'); /* Replace with your image */
-}
 
-.grid-item:nth-child(7) .left-half {
+
+.grid-item:nth-child(6) .left-half {
     background-image: url('snacks2.jpg'); /* Replace with your image */
 }
 
-.grid-item:nth-child(8) .left-half {
+.grid-item:nth-child(7) .left-half {
     background-image: url('drinks1.jpeg'); /* Replace with your image */
 }
 
 
 
-.grid-item:nth-child(9) .left-half {
+.grid-item:nth-child(8) .left-half {
     background-image: url('sweets1.jpg'); /* Replace with your image */
 }
 
